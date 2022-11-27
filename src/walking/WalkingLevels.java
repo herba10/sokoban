@@ -38,7 +38,7 @@ public class WalkingLevels {
             try {
                 cubesAtTargets = 0;
                 System.out.println("enter level number, 0-" + (LEVELS_AMOUNT - 1));
-                var in = input.next();
+                String in = input.next();
                 actualLevel = Integer.parseInt(in);
                 if (actualLevel >= 0 && actualLevel < LEVELS_AMOUNT) {
                     System.out.println("you chose: " + actualLevel);
