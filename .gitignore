@@ -1,0 +1,10 @@
+# Project exclude paths
+/.gradle/
+/build/
+/out/
+/out/production/
+/out/production/classes/
+/.idea/
+*.zip
+*.log
+start.bat
